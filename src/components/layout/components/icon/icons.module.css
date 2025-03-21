@@ -1,0 +1,8 @@
+.iconLateralNavigate {
+  cursor: pointer;
+  color: var(--colorTextDefault);
+}
+
+.iconLateralNavigate:hover {
+  transform: scale(1.1);
+}
