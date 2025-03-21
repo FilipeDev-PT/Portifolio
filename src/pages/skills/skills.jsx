@@ -1,6 +1,6 @@
 import Layout from "../../components/layout/layout";
 import style from "./skills.module.css";
-import Skill from "./skill/skill";
+import Skill from "./compnents/skill/skill";
 
 export default function Skills() {
   return (
