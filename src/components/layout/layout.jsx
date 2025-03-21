@@ -23,7 +23,7 @@ export default function Layout({ children }) {
       const page = pagina + 1;
       setPagina(page);
       const urlpage = urlPages[page];
-      navigate(`/${urlpage}`);
+      navigate(`/Portifolio/${urlpage}`);
     }
   };
 
@@ -32,7 +32,7 @@ export default function Layout({ children }) {
       const page = pagina - 1;
       setPagina(page);
       const urlpage = urlPages[page];
-      navigate(`/${urlpage}`);
+      navigate(`/Portifolio/${urlpage}`);
     }
   };
 

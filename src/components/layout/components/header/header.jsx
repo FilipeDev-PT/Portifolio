@@ -8,7 +8,7 @@ export default function Header({ constPagina, urlPageina }) {
   function handleButtonEspecific(id) {
     constPagina(id);
     const urlpage = urlPageina[id];
-    navigate(`/${urlpage}`);
+    navigate(`/Portifolio/${urlpage}`);
   }
 
   return (
