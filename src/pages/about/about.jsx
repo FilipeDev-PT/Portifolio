@@ -12,7 +12,7 @@ export default function About() {
         <div className={style.divContentTitle}>
           <div>
             <h3>Frontend</h3>
-            <h4>Desenvolvedor</h4>
+            <h4>Developer</h4>
           </div>
           <div>
             <p>
